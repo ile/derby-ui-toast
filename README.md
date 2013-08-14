@@ -30,11 +30,9 @@ make
 In app.js:
 
 ```javascript
-
-var derby = require('derby')
-    , toast = require('derby-toast')
-    , app = toast.init(derby.createApp(module));
-
+var app;
+app = require('derby').createApp(module)
+	.use(require('derby-toast'));
 
 ```
 
