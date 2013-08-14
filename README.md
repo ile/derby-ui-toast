@@ -53,10 +53,10 @@ Defining the template component:
 
 ```html
 <toast:>
-    {#each _page.toast.success as :msg}<div class="alert static alert-success">{{:msg}}</div>{/}
-    {#each _page.toast.info as :msg}<div class="alert static alert-info">{{:msg}}</div>{/}
-    {#each _page.toast.warning as :msg}<div class="alert static alert-warning">{{:msg}}</div>{/}
-    {#each _page.toast.error as :msg}<div class="alert static alert-error">{{:msg}}</div>{/}
+    {#each _page.toast.success as :msg}<div x-bind="click:toast.remove" class="alert static alert-success">{{:msg}}</div>{/}
+    {#each _page.toast.info as :msg}<div x-bind="click:toast.remove" class="alert static alert-info">{{:msg}}</div>{/}
+    {#each _page.toast.warning as :msg}<div x-bind="click:toast.remove" class="alert static alert-warning">{{:msg}}</div>{/}
+    {#each _page.toast.error as :msg}<div x-bind="click:toast.remove" class="alert static alert-error">{{:msg}}</div>{/}
 ```
 
 Using it:
