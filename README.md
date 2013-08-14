@@ -1,6 +1,6 @@
 #derby-toast
 
-Notification messages ([toasts](http://en.wikipedia.org/wiki/Toast_(computing))) for Derby.
+Notification messages ([toasts](http://en.wikipedia.org/wiki/Toast_(computing)) for Derby.
 
 ##Requirements
 
