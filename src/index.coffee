@@ -8,8 +8,7 @@ module.exports = (app, options) ->
 
 	app.fn 'toast.remove', (e, el) ->
 		#make sure we don't remove anything we shouldn't
-		if app.model.at(el).path().substring(0,12) is '_page.toast.'
-			app.model.at(el).remove()
+		app.model.at(el).remove() if app?.model?.at(el)?.path()?.substring(0,12) is '_page.toast.'
 
 	app.createLibrary config, options
 
