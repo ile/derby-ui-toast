@@ -2,7 +2,7 @@
 
 Notification messages ([toasts](http://en.wikipedia.org/wiki/Toast_(computing)) for Derby.
 
-![](https://f.cloud.github.com/assets/433707/966377/51ab2fc2-0545-11e3-960f-8cf9ce085715.png)
+![toast](https://f.cloud.github.com/assets/433707/966450/571f6b72-0549-11e3-946b-8b062879d7c5.png)
 
 ##Requirements
 
