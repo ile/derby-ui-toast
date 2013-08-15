@@ -67,6 +67,10 @@ sticky: false
 timeout: 50000
 ```
 
+###Removing messages
+
+Messages will disappear in 5 seconds by default. They can also be removed by clicking the message dialog box.
+
 ##License
 
 The MIT License
