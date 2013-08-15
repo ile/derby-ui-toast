@@ -16,10 +16,6 @@ Using [npm](https://npmjs.org/)
 
 `npm install derby-toast`
 
-##Usage
-
-###Initialization
-
 In app.js:
 
 ```javascript
@@ -28,6 +24,8 @@ app = require('derby').createApp(module)
 	.use(require('derby-toast'));
 
 ```
+
+##Usage
 
 ###In templates
 
