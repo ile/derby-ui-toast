@@ -2,8 +2,6 @@
 
 Notification messages ([toasts](http://en.wikipedia.org/wiki/Toast_(computing)) for Derby.
 
-![](https://f.cloud.github.com/assets/433707/966377/51ab2fc2-0545-11e3-960f-8cf9ce085715.png)
-
 ##Requirements
 
 - [Node.js](http://nodejs.org)
@@ -38,6 +36,13 @@ app = require('derby').createApp(module)
 
 ```
 
+###In templates
+
+```html
+<toast:toast>
+
+```
+
 ###Adding messages
 
 ```javascript
@@ -48,13 +53,18 @@ model.toast('error', 'An error happened!');
 
 ```
 
-... where `model` if your model object, wherever it is available.
+Messages will disappear in 5 seconds by default. This can be configured:
 
-###In templates
+```javascript
+model.toast('info', 'Everything is ok!', { sticky: true });
+model.toast('info', 'Everything is ok!', { timeout: 3000 });
+```
 
-```html
-<toast:toast>
+Default options are:
 
+```
+sticky: false
+timeout: 50000
 ```
 
 ##License
