@@ -16,15 +16,6 @@ Using [npm](https://npmjs.org/)
 
 `npm install derby-toast`
 
-Or from the sources:
-
-```
-git clone git://github.com/ile/derby-toast.git
-cd derby-toast
-npm install
-make
-```
-
 ##Usage
 
 ###Initialization
