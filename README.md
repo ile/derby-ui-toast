@@ -39,6 +39,9 @@ app = require('derby').createApp(module)
 ###Adding messages
 
 ```javascript
+model.toast('info', 'Everything is ok!');
+model.toast('success', 'It worked!');
+model.toast('warning', 'Beware!');
 model.toast('error', 'An error happened!');
 
 ```
@@ -47,20 +50,8 @@ model.toast('error', 'An error happened!');
 
 ###In templates
 
-Defining the template component:
-
 ```html
-<toast:>
-    {#each _page.toast.success as :msg}<div x-bind="click:toast.remove" class="alert static alert-success">{{:msg}}</div>{/}
-    {#each _page.toast.info as :msg}<div x-bind="click:toast.remove" class="alert static alert-info">{{:msg}}</div>{/}
-    {#each _page.toast.warning as :msg}<div x-bind="click:toast.remove" class="alert static alert-warning">{{:msg}}</div>{/}
-    {#each _page.toast.error as :msg}<div x-bind="click:toast.remove" class="alert static alert-error">{{:msg}}</div>{/}
-```
-
-Using it:
-
-```html
-<app:toast>
+<toast:toast>
 
 ```
 

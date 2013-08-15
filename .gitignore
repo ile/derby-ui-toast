@@ -1,8 +1,4 @@
 node_modules
 .DS_Store
-public/gen
-public/upload
-public/file-uploader
-gen
 *.swp
 *.gz

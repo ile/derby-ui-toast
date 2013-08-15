@@ -1,0 +1,4 @@
+<toast:>
+	<div class="toast-container">
+	    {#each _page.toast}<div x-bind="click:toast.remove" class="toast toast-{{.type}}"><span>{{.msg}}</span></div>{/}
+	</div>
