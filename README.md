@@ -64,7 +64,7 @@ Default options are:
 
 ```
 sticky: false
-timeout: 50000
+timeout: 5000
 ```
 
 ###Removing messages
