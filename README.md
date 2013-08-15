@@ -41,7 +41,7 @@ app = require('derby').createApp(module)
 ###In templates
 
 ```html
-<toast:toast>
+<derby-toast:toast>
 
 ```
 
