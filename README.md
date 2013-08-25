@@ -1,4 +1,4 @@
-#derby-toast
+#derby-ui-toast
 
 Notification messages ([toasts](http://en.wikipedia.org/wiki/Toast_(computing\))) for Derby.
 
@@ -14,14 +14,14 @@ Notification messages ([toasts](http://en.wikipedia.org/wiki/Toast_(computing\))
 
 Using [npm](https://npmjs.org/)
 
-`npm install derby-toast`
+`npm install derby-ui-toast`
 
 In app.js:
 
 ```javascript
 var app;
 app = require('derby').createApp(module)
-	.use(require('derby-toast'));
+	.use(require('derby-ui-toast'));
 
 ```
 
@@ -30,7 +30,7 @@ app = require('derby').createApp(module)
 ###In templates
 
 ```html
-<derby-toast:toast>
+<derby-ui-toast:toast>
 
 ```
 
@@ -61,3 +61,7 @@ timeout: 5000
 ###Removing messages
 
 Messages will disappear in 5 seconds by default. They can also be removed by clicking the message dialog box.
+
+## Beware
+
+The namespace `derby-ui-toast` will be changed later to `ui`.

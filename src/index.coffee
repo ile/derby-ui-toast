@@ -2,7 +2,7 @@ racer = require('racer')
 Model = racer.Model
 config =
   filename: __filename
-  ns: 'derby-toast'
+  ns: 'derby-ui-toast'
   styles: [__dirname + '/../css/toast']
 
 module.exports = (app, options) ->

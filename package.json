@@ -1,11 +1,11 @@
 {
   "author": "Ilkka Huotari <ilkkah@gmail.com>",
-  "name": "derby-toast",
+  "name": "derby-ui-toast",
   "description": "Notification messages for Derby",
   "version": "0.1.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ile/derby-toast.git"
+    "url": "git://github.com/ile/derby-ui-toast.git"
   },
   "private": false,
   "main": "lib/index",
