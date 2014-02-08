@@ -18,17 +18,21 @@ module.exports = (app, options) ->
 			id: @id()
 			type: type
 			msg: msg
+
+		if options.click
+			toast.click = options.click
+
 		remove = =>
 			toasts = @get("_page.toast")
 			if toasts
 				for t, i in toasts
 					if t.id is toast.id
+						t.click() if t.click
 						@remove "_page.toast", i
 						return
 
-		@unshift "_page.toast", toast, (err) ->
-			setTimeout remove, options.timeout if !sticky
-
+		# add toast
+		@unshift "_page.toast", toast, (err) -> setTimeout remove, timeout if !sticky
 
 	app.fn 'toast.remove', (e, el) ->
 		# make sure we don't remove anything we shouldn't

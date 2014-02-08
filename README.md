@@ -37,26 +37,40 @@ app = require('derby').createApp(module)
 ###Adding messages
 
 ```javascript
+model.toast(type, message, options);
+```
+
+*type* : string, the default possibilities are:
+
+- 'info'
+- 'success'
+- 'warning'
+- 'error'
+
+*message*: string
+
+*options*: object
+
+### options
+
+- *sticky*  
+	default: false
+- *timeout*  
+	default: 5000
+- *click*  
+	default: none
+
+###Examples:
+
+```javascript
 model.toast('info', 'Everything is ok!');
 model.toast('success', 'It worked!');
 model.toast('warning', 'Beware!');
-model.toast('error', 'An error happened!');
-
+model.toast('error', 'An error happened!', { sticky: true });
+model.toast('error', 'An error happened again!', { timeout: 1000 });
+model.toast('error', 'And again!', { click: myFunction });
 ```
 
-Messages will disappear in 5 seconds by default. This can be configured:
-
-```javascript
-model.toast('info', 'Everything is ok!', { sticky: true });
-model.toast('info', 'Everything is ok!', { timeout: 3000 });
-```
-
-Default options are:
-
-```
-sticky: false
-timeout: 5000
-```
 
 ###Removing messages
 
