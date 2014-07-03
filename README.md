@@ -31,16 +31,17 @@ If you want to use the default background images on the notification boxes:
 
 Or if you want to use the Font Awesome icons:
 
-If you want to use the default background images on the notification boxes:
 ```css
 @import '../../node_modules/derby-ui-toast/css/bg-fontawesome.css'
 ```
 
-Also uou have to enable the component in JavaScrip:
+Also you have to enable the component in JavaScript:
 
 ```javascript
 app.component(require('derby-ui-toast'));
 ```
+
+And in HTML:
 
 ```html
 <view name="derby-ui-toast"></view>
