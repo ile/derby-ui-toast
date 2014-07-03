@@ -1,0 +1,17 @@
+.toast-container .toast span:before {
+	width: 20px;
+	display: inline-block;
+	font-family: FontAwesome;
+}	
+.toast-container .toast.toast-info span:before {
+	content: "\f05a";
+}
+.toast-container .toast.toast-success span:before {
+	content: "\f05d";
+}
+.toast-container .toast.toast-warning span:before {
+	content: "\f071";
+}
+.toast-container .toast.toast-error span:before {
+	content: "\f071";
+}

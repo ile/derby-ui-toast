@@ -2,21 +2,21 @@
   "author": "Ilkka Huotari <ilkkah@gmail.com>",
   "name": "derby-ui-toast",
   "description": "Notification messages for Derby",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/ile/derby-ui-toast.git"
   },
   "private": false,
   "main": "lib/index",
+  "devDependencies": {
+    "coffee-script": "*"
+  },
   "directories": {
     "lib": "lib"
   },
   "engines": {
     "node": ">= 0.8.0"
-  },
-  "devDependencies": {
-    "coffee-script": ">=1.3.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

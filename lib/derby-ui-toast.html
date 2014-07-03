@@ -1,4 +1,4 @@
 <index:>
 	<div class="toast-container">
-	    {{each _page.toast}}<div x-bind="click:toast.remove" class="toast toast-{{this.type}}"><span>{{this.msg}}</span></div>{{/each}}
+	    {{each #root._page.toast as #toast, #i}}<div on-click="remove(#i)" class="toast toast-{{#toast.type}}"><span>{{#toast.msg}}</span></div>{{/each}}
 	</div>

@@ -16,22 +16,34 @@ Using [npm](https://npmjs.org/)
 
 `npm install derby-ui-toast`
 
-In app.js:
-
-```javascript
-var app;
-app = require('derby').createApp(module)
-	.use(require('derby-ui-toast'));
-
-```
 
 ##Usage
 
-###In templates
+Now you have to import the CSS:
+```css
+@import '../../node_modules/derby-ui-toast/css/style.css'
+```
+
+If you want to use the default background images on the notification boxes:
+```css
+@import '../../node_modules/derby-ui-toast/css/bg-images.css'
+```
+
+Or if you want to use the Font Awesome icons:
+
+If you want to use the default background images on the notification boxes:
+```css
+@import '../../node_modules/derby-ui-toast/css/bg-fontawesome.css'
+```
+
+Also uou have to enable the component in JavaScrip:
+
+```javascript
+app.component(require('derby-ui-toast'));
+```
 
 ```html
-<derby-ui-toast:toast>
-
+<view name="derby-ui-toast"></view>
 ```
 
 ###Adding messages
