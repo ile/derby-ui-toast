@@ -2,7 +2,7 @@
   "author": "Ilkka Huotari <ilkkah@gmail.com>",
   "name": "derby-ui-toast",
   "description": "Notification messages for Derby",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/ile/derby-ui-toast.git"

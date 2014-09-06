@@ -5,7 +5,7 @@ class Toast
 
 	view: __dirname + '/derby-ui-toast.html'	
 
-	create: (model, dom) ->
+	init: (model, dom) ->
 
 		defaultOptions =
 			sticky: false

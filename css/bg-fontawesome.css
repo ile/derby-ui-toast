@@ -1,13 +1,16 @@
 .toast-container .toast span:before {
-	width: 20px;
 	display: inline-block;
 	font-family: FontAwesome;
+	font-size: 26px;
+	line-height: 26px;
+	vertical-align: middle;
+	margin-right: 8px;
 }	
 .toast-container .toast.toast-info span:before {
 	content: "\f05a";
 }
 .toast-container .toast.toast-success span:before {
-	content: "\f05d";
+	content: "\f058";
 }
 .toast-container .toast.toast-warning span:before {
 	content: "\f071";

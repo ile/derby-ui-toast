@@ -19,9 +19,9 @@ Using [npm](https://npmjs.org/)
 
 ##Usage
 
-Now you have to import the CSS:
+Now you have to import the base CSS:
 ```css
-@import '../../node_modules/derby-ui-toast/css/style.css'
+@import '../../node_modules/derby-ui-toast/css/'
 ```
 
 If you want to use the default background images on the notification boxes:
