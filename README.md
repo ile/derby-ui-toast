@@ -19,7 +19,7 @@ Using [npm](https://npmjs.org/)
 
 ##Usage
 
-Now you have to import the base CSS:
+First you have to import the base CSS:
 ```css
 @import '../../node_modules/derby-ui-toast/css/'
 ```
