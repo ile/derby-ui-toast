@@ -99,6 +99,7 @@ model.toast('warning', 'Beware!');
 model.toast('error', 'An error happened!', { sticky: true });
 model.toast('error', 'An error happened again!', { timeout: 1000 });
 model.toast('error', 'And again!', { click: myFunction });
+model.toast({ info: 'Info message' });
 ```
 
 
