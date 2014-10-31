@@ -12,7 +12,7 @@ Notification messages ([toasts](http://en.wikipedia.org/wiki/Toast_(computing\))
 
 ##Demo
 
-http://ubuntu-35.com:3000/derby-ui-toast
+https://derby-demos.herokuapp.com/derby-ui-toast
 
 ##Installation
 
