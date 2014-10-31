@@ -10,6 +10,10 @@ Notification messages ([toasts](http://en.wikipedia.org/wiki/Toast_(computing\))
 - [Derby](http://derbyjs.com/)
 
 
+##Demo
+
+http://ubuntu-35.com:3000/derby-ui-toast
+
 ##Installation
 
 Using [npm](https://npmjs.org/)
