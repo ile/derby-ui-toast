@@ -77,7 +77,7 @@ model.toast(type, message, options);
 
 ```javascript
 model.toast({ info: 'Info message' }, options);
-model.toast({ success: 'Success message' }, options);
+model.toast({ success: 'Success message' });
 ```
 
 ###Examples:
