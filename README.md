@@ -106,6 +106,3 @@ model.toast('error', 'And again!', { click: myFunction });
 
 Messages will disappear in 5 seconds by default. They can also be removed by clicking the message dialog box.
 
-## Beware
-
-The namespace `derby-ui-toast` will be changed later to `ui`.
