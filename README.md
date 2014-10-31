@@ -23,6 +23,8 @@ Using [npm](https://npmjs.org/)
 
 ##Usage
 
+###Add CSS
+
 First you have to import the base CSS:
 ```css
 @import '../../node_modules/derby-ui-toast/css/'
@@ -39,11 +41,15 @@ Or if you want to use the Font Awesome icons:
 @import '../../node_modules/derby-ui-toast/css/bg-fontawesome.css'
 ```
 
+###Add JS
+
 Also you have to enable the component in JavaScript:
 
 ```javascript
 app.component(require('derby-ui-toast'));
 ```
+
+###Add HTML
 
 And in HTML:
 
