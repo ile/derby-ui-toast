@@ -73,6 +73,13 @@ model.toast(type, message, options);
 - *click*  
 	default: none
 
+####This will also work:
+
+```javascript
+model.toast({ info: 'Info message' }, options);
+model.toast({ success: 'Success message' }, options);
+```
+
 ###Examples:
 
 ```javascript
